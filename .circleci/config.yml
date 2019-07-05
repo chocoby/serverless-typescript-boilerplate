@@ -30,8 +30,8 @@ jobs:
           when: always
 
       - run:
-          name: Run tslint
-          command: yarn tslint:ci
+          name: Run eslint
+          command: yarn eslint:ci
           when: always
 
       # Upload results
@@ -42,4 +42,4 @@ jobs:
           path: ./reports/mocha/test-results.xml
 
       - store_artifacts:
-          path: ./reports/tslint/test-results.xml
+          path: ./reports/eslint/test-results.xml

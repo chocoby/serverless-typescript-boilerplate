@@ -17,7 +17,7 @@ $ yarn run sls offline start
 ### Lint
 
 ```
-$ yarn tslint
+$ yarn eslint
 ```
 
 ### Prettier

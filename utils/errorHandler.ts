@@ -2,11 +2,11 @@ import { Request, Response, NextFunction } from "express";
 import * as boom from "boom";
 
 export const errorHandler = (
-  err: any,
+  err: any, // eslint-disable-line @typescript-eslint/no-explicit-any
   req: Request,
   res: Response,
   next: NextFunction
-) => {
+): void | Response => {
   if (res.headersSent) return next(err);
   if (!err.statusCode) err = boom.boomify(err);
 

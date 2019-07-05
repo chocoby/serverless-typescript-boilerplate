@@ -1,7 +1,6 @@
 import * as express from "express";
 import * as asyncHandler from "express-async-handler";
 import * as serverlessHttp from "serverless-http";
-import * as boom from "boom";
 
 import { errorHandler } from "./utils/errorHandler";
 
