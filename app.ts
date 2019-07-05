@@ -1,6 +1,6 @@
 import * as express from "express";
 import * as asyncHandler from "express-async-handler";
-import * as serverlessHttp from "serverless-http";
+import serverlessHttp =  require("serverless-http");
 
 import { errorHandler } from "./utils/errorHandler";
 
@@ -18,5 +18,4 @@ app.get(
 
 app.use(errorHandler);
 
-// FIXME: TypeScript warning
 export const handler = serverlessHttp(app);
