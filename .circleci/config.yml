@@ -1,0 +1,45 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8
+    working_directory: ~/repo
+    steps:
+      - checkout
+
+      - restore_cache:
+          name: Restore Yarn Package Cache
+          keys:
+            - yarn-packages-{{ checksum "yarn.lock" }}
+
+      - run:
+          name: Install Dependencies
+          command: yarn install --frozen-lockfile
+
+      - save_cache:
+          name: Save Yarn Package Cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+
+      - run: mkdir reports
+
+      - run:
+          name: Run test
+          command: yarn test:ci
+          when: always
+
+      - run:
+          name: Run tslint
+          command: yarn tslint:ci
+          when: always
+
+      # Upload results
+      - store_test_results:
+          path: reports
+
+      - store_artifacts:
+          path: ./reports/mocha/test-results.xml
+
+      - store_artifacts:
+          path: ./reports/tslint/test-results.xml
