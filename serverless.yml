@@ -15,7 +15,7 @@ service: serverless-typescript-boilerplate
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs10.x
   stage: ${opt:stage, self:custom.defaultStage}
   memorySize: 256
   region: ap-northeast-1
