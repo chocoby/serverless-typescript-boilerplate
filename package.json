@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "eslint": "eslint --fix ./*.ts ./utils/**/*.ts",
-    "eslint:ci": "eslint --fix --format junit --output-file reports/eslint/test-results.xml ./*.ts ./utils/**/*.ts",
+    "eslint": "eslint --fix ./*.ts ./utils/**/*.ts ./test/**/*.ts",
+    "eslint:ci": "eslint --fix --format junit --output-file reports/eslint/test-results.xml ./*.ts ./utils/**/*.ts ./test/**/*.ts",
     "prettier": "prettier --write ./*.{ts,tsx}",
     "test": "mocha --require ts-node/register test/**/*.ts",
     "test:ci": "mocha --require ts-node/register --reporter mocha-circleci-reporter --reporter-options mochaFile=reports/mocha/test-results.xml test/**/*.ts"
