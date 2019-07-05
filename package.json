@@ -31,7 +31,7 @@
     "serverless": "^1.38.0",
     "serverless-offline": "^5.6.0",
     "serverless-webpack": "^5.2.0",
-    "ts-loader": "^5.3.3",
+    "ts-loader": "^6.0.4",
     "typescript": "^3.3.3333",
     "webpack": "^4.29.6",
     "webpack-node-externals": "^1.7.2"
