@@ -3920,10 +3920,10 @@ lsmod@1.0.0:
   resolved "https://registry.yarnpkg.com/lsmod/-/lsmod-1.0.0.tgz#9a00f76dca36eb23fa05350afe1b585d4299e64b"
   integrity sha1-mgD3bco26yP6BTUK/htYXUKZ5ks=
 
-luxon@^1.16.1:
-  version "1.16.1"
-  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.16.1.tgz#62568d483989fa108f5c87178a05bcc707f7698b"
-  integrity sha512-3aYYMFpIRdEQJl00ki+NDr2zx/Ulf7ZgohBUb6ifZQuVkP8/KCYJluISl0YNbvZXBdzCbVhpQnS4M6Svjpn7EA==
+luxon@^1.17.1:
+  version "1.17.1"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.17.1.tgz#7261aae6f7a2cc3cf83cbe24c62335cf3a48caad"
+  integrity sha512-+xo7Pj54xwyEzlMdXzDqm60Ewqbn0QqACwfIo6so9M1idUtYQrD7/PHjEFQQmLCBu8wUe2IDC2jrcJJ3Buk4Pw==
 
 make-dir@^1.0.0:
   version "1.3.0"
@@ -5329,10 +5329,10 @@ serverless-http@^2.0.2:
   optionalDependencies:
     "@types/aws-lambda" "^8.10.19"
 
-serverless-offline@^5.7.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-5.7.3.tgz#1b8196db0885198dea0528fceea1d86e64c52748"
-  integrity sha512-hDNatvNkrJ86pm7jQqpk1yVNQE20q5HiFuwFWxZHfljkFQOx4RyMluDN4Y6sLtV3LZHl/QY9JgV8v8TWe8dhDA==
+serverless-offline@^5.8.0:
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-5.8.0.tgz#63733d45c79a80eb0c168e0b5a5e9c23bc5a5747"
+  integrity sha512-RgBeiHbcreDnkjVmHp3LpMag8weXgjeE8gxEAy8+BKm6w9NH80Fw+/8LQwLuuHdXFAqG/HoZ70t5L20eA5j3NQ==
   dependencies:
     "@hapi/boom" "^7.4.2"
     "@hapi/h2o2" "^8.3.0"
@@ -5342,7 +5342,7 @@ serverless-offline@^5.7.3:
     js-string-escape "^1.0.1"
     jsonpath-plus "^0.20.1"
     jsonwebtoken "^8.5.1"
-    luxon "^1.16.1"
+    luxon "^1.17.1"
     object.fromentries "^2.0.0"
     semver "^6.2.0"
     trim-newlines "^3.0.0"
