@@ -34,6 +34,11 @@ jobs:
           command: yarn eslint:ci
           when: always
 
+      - run:
+          name: Check response
+          command: yarn run sls offline start --exec "curl --fail 127.0.0.1:3000"
+          when: always
+
       # Upload results
       - store_test_results:
           path: reports
