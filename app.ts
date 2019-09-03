@@ -1,6 +1,6 @@
 import * as express from "express";
 import * as asyncHandler from "express-async-handler";
-import serverlessHttp =  require("serverless-http");
+import serverlessHttp = require("serverless-http");
 
 import { errorHandler } from "./utils/errorHandler";
 
@@ -11,7 +11,7 @@ app.get(
   "/",
   asyncHandler(
     async (req: express.Request, res: express.Response): Promise<void> => {
-      res.json({});
+      res.json({ message: "Hello, world!" });
     }
   )
 );
