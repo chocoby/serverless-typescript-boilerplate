@@ -6750,9 +6750,9 @@ vary@~1.1.2:
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
 velocityjs@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/velocityjs/-/velocityjs-1.1.4.tgz#d8122e61d583e0421f8e40d50bdb0eaf39e160f5"
-  integrity sha512-2j741DNEA6DSrnoBR60Fx2QyqNv/3Y1p7+BHj7FRsgOANx0YAoOH7FMX6jV52O6dwXmUW/3sy01gprayU1xckw==
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/velocityjs/-/velocityjs-1.1.5.tgz#7c2001bf839901f8a682567a3781bc3cfd7a20e1"
+  integrity sha512-U4ANK4MRYSczVZjOp9FkAQoPO9geKSy3CWrBShPxMoWyqDox8SW8AZYiKtlCrV21ucONUtlU0iF3+KKK9AGoyA==
 
 vm-browserify@^1.0.1:
   version "1.1.0"
