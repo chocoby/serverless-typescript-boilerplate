@@ -3,7 +3,7 @@ version: 1
 update_configs:
   - package_manager: "javascript"
     directory: "/"
-    update_schedule: "daily"
+    update_schedule: "weekly"
 
     allowed_updates:
       - match:
@@ -15,4 +15,4 @@ update_configs:
           update_type: "semver:minor"
       - match:
           dependency_type: "production"
-          update_type: "semver:patch"
+          update_type: "semver:minor"
