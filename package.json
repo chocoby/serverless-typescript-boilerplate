@@ -27,7 +27,7 @@
     "eslint-config-prettier": "^6.3.0",
     "mocha": "^6.2.2",
     "mocha-circleci-reporter": "^0.0.3",
-    "prettier": "^1.16.4",
+    "prettier": "^1.19.1",
     "serverless": "^1.52.2",
     "serverless-offline": "^5.11.0",
     "serverless-webpack": "^5.2.0",
