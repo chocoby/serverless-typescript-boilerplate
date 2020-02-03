@@ -4090,9 +4090,9 @@ json5@^1.0.1:
     minimist "^1.2.0"
 
 jsonata@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/jsonata/-/jsonata-1.7.0.tgz#26e405fc306f582db981fc98f538fc60170c9ce3"
-  integrity sha512-W1qxnGXtbaboFFA8DMLL2GZgiWoeFuMo0Yf3J23o03omzIuW9a9hgowgfUChQq8bfMfh/zmQJpwn/gQirn46ew==
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/jsonata/-/jsonata-1.8.0.tgz#6caf9ef8e0694eacbadc4c955206715e7041fc16"
+  integrity sha512-RyBeWiRFVNY6O8Q48JssBoJcIc+MAuXTAANUHKbkiUsCG6gDs15xjoa9Gx2vs7Nhobk4ApZZB5E2Y0B8/eZldg==
 
 jsonfile@^2.1.0:
   version "2.4.0"
