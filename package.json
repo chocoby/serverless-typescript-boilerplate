@@ -18,7 +18,7 @@
     "@types/mocha": "^7.0.2",
     "@types/node": "^13.9.0",
     "@types/webpack": "^4.41.7",
-    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
     "@typescript-eslint/parser": "^2.22.0",
     "aws-lambda": "^1.0.5",
     "aws-sdk-mock": "^5.0.0",
