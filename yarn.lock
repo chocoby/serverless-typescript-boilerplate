@@ -4261,9 +4261,9 @@ json5@^1.0.1:
     minimist "^1.2.0"
 
 jsonata@^1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/jsonata/-/jsonata-1.8.1.tgz#75f942971a1fe1019c86690e1ddc2af7e21dbec9"
-  integrity sha512-Lw1ApNtYH9i/lWBuRSm1I/xfhPyTvlVslVIaGLW/bxFimxQYzQx2y3+DNRmbx5mmCmRb+bCLdIJasEFyb+aUlQ==
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/jsonata/-/jsonata-1.8.2.tgz#bdef71db29204a5243d2517bf94a8fea58c90904"
+  integrity sha512-ma5F/Bs47dZfJfDZ0Dt37eIbzVBVKZIDqsZSqdCCAPNHxKn+s3+CfMA6ahVVlf8Y1hyIjXkVLFU7yv4XxRfihA==
 
 jsonfile@^2.1.0:
   version "2.4.0"
