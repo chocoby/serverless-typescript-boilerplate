@@ -3842,17 +3842,17 @@ fs.realpath@^1.0.0:
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
 
 fs2@^0.3.6:
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/fs2/-/fs2-0.3.7.tgz#60ee9f68816ce69c566581d438f127462d79d253"
-  integrity sha512-fwfd9MBI/fnXtR/ClVTyeuPXJ+oI5WNyXvBQPmc4btgqLYTKOuBRTRUVjmVpDUri0C88HLwMlc5ESg48fEAGjw==
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/fs2/-/fs2-0.3.8.tgz#8930ac841240b7cf95f5a19e2c72824b87cbc1b0"
+  integrity sha512-HxOTRiFS3PqwAOmlp1mTwLA+xhQBdaP82b5aBamc/rHKFVyn4qL8YpngaAleD52PNMzBm6TsGOoU/Hq+bAfBhA==
   dependencies:
     d "^1.0.1"
     deferred "^0.7.11"
-    es5-ext "^0.10.51"
+    es5-ext "^0.10.53"
     event-emitter "^0.3.5"
     ignore "^5.1.4"
     memoizee "^0.4.14"
-    type "^1.2.0"
+    type "^2.0.0"
 
 fsevents@^1.2.7:
   version "1.2.13"
@@ -5737,7 +5737,12 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-next-tick@1, next-tick@^1.0.0, next-tick@~1.0.0:
+next-tick@1, next-tick@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.1.0.tgz#1836ee30ad56d67ef281b22bd199f709449b35eb"
+  integrity sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==
+
+next-tick@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
@@ -7934,7 +7939,7 @@ type-is@^1.6.16, type-is@~1.6.17, type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-type@^1.0.1, type@^1.2.0:
+type@^1.0.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/type/-/type-1.2.0.tgz#848dd7698dafa3e54a6c479e759c4bc3f18847a0"
   integrity sha512-+5nt5AAniqsCnu2cEQQdpzCAh33kVx8n0VoFidKpB1dVVLAN/F+bgVOqOJqOnEnrhp222clB5p3vUlD+1QAnfg==
