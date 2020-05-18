@@ -6813,10 +6813,10 @@ serve-static@1.14.1:
     parseurl "~1.3.3"
     send "0.17.1"
 
-serverless-http@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/serverless-http/-/serverless-http-2.3.2.tgz#45c7f984adc82b4d8b5c88f11baec3dec373c999"
-  integrity sha512-tUUpj2USho2s+X+7js0KQZ2PWqdDNXKkiz9rdYqu3CG/3hsvMve9IBm/R6gILgijGgOfkCKSjsrPnPG08Y7M6g==
+serverless-http@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/serverless-http/-/serverless-http-2.4.1.tgz#bd110da62f3b5f0ae58b213aa6dbe71ddb9b7db4"
+  integrity sha512-DUul/WeN/QFrDPLqrWf330tWhkmyIbmz5yR6YKfoxJ7P6fr1Hxs0VhpY3gweRKyEasvxHi+ck2apj5Ktk/PRqA==
   optionalDependencies:
     "@types/aws-lambda" "^8.10.19"
 
