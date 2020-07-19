@@ -79,10 +79,10 @@
   dependencies:
     "@hapi/hoek" "8.x.x"
 
-"@hapi/boom@9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@hapi/boom/-/boom-9.0.0.tgz#28f9e77ecf2dea1fe3a8982b9d8827aa5137e33a"
-  integrity sha512-D+Or4yahLq3L7D1Jf0fR1+Lgr+HPK1lej8tc6hS/fBLmK66XdpvTyKv8YUR5ls1GeQy+KGtbpKAs+ZxyzNtUyA==
+"@hapi/boom@9.1.0":
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/@hapi/boom/-/boom-9.1.0.tgz#0d9517657a56ff1e0b42d0aca9da1b37706fec56"
+  integrity sha512-4nZmpp4tXbm162LaZT45P7F7sgiem8dwAh2vHWT6XX24dozNjGMg6BvKCRvtCUcmcXqeMIUqWN8Rc5X8yKuROQ==
   dependencies:
     "@hapi/hoek" "9.x.x"
 
@@ -197,10 +197,10 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-8.5.0.tgz#2f9ce301c8898e1c3248b0a8564696b24d1a9a5a"
   integrity sha512-7XYT10CZfPsH7j9F1Jmg1+d0ezOux2oM2GfArAzLwWe4mE2Dr3hVjsAL6+TFY49RRJlCdJDMw3nJsLFroTc8Kw==
 
-"@hapi/hoek@9.0.3", "@hapi/hoek@9.x.x":
-  version "9.0.3"
-  resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.0.3.tgz#e49e637d5de8faa4f0d313c2590b455d7c00afd7"
-  integrity sha512-jKtjLLDiH95b002sJVc5c74PE6KKYftuyVdVmsuYId5stTaWcRFqE+5ukZI4gDUKjGn8wv2C3zPn3/nyjEI7gg==
+"@hapi/hoek@9.0.4", "@hapi/hoek@9.x.x":
+  version "9.0.4"
+  resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.0.4.tgz#e80ad4e8e8d2adc6c77d985f698447e8628b6010"
+  integrity sha512-EwaJS7RjoXUZ2cXXKZZxZqieGtc7RbvQhUy8FwDoMQtxWVi14tFjeFCYPZAM1mBCpOpiBpyaZbb9NeHc7eGKgw==
 
 "@hapi/iron@5.x.x":
   version "5.1.1"
@@ -2021,10 +2021,10 @@ cbor-js@0.1.0:
   resolved "https://registry.yarnpkg.com/cbor-js/-/cbor-js-0.1.0.tgz#c80ce6120f387e8faa74370dfda21d965b8fc7f9"
   integrity sha1-yAzmEg84fo+qdDcN/aIdlluPx/k=
 
-cbor@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/cbor/-/cbor-5.0.1.tgz#243eea46b19c6e54ffb18fb07fa52c1c627a6f05"
-  integrity sha512-l4ghwqioCyuAaD3LvY4ONwv8NMuERz62xjbMHGdWBqERJPygVmoFER1b4+VS6iW0rXwoVGuKZPPPTofwWOg3YQ==
+cbor@5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/cbor/-/cbor-5.0.2.tgz#aa8c3820280ebb9f3a45b2a4c66ac344294443de"
+  integrity sha512-6JiKVURxxO92FntzTJq54QdN/8fBaBwD7+nNyGIAi1HL9mBgU3YK6ULV8k7WTuT/EwfRsjy3MuqDKlkQMCmfXg==
   dependencies:
     bignumber.js "^9.0.0"
     nofilter "^1.0.3"
@@ -3053,12 +3053,12 @@ encoding@^0.1.11:
   dependencies:
     iconv-lite "~0.4.13"
 
-encodr@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/encodr/-/encodr-1.2.2.tgz#c34e5cb86e3a0ce2df0df6287efddf7a1158cb99"
-  integrity sha512-MQ5cDilH5al566/2KXvsyrti6t67Oso5oe2RLfgdcNKaMcqEPfbTxpFOa+41QkPAu1+bEVksWL8JK3Owa6Ow+g==
+encodr@1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/encodr/-/encodr-1.2.4.tgz#cc20a6c3f41c7624caea5d3b9bd529904e16c2f2"
+  integrity sha512-qat2nnLhGUyHgagmwu3uBjDKlAD2LqREQrdwLK2hS1CoAaK4SmPx1l4VK+S23w81LrmvbUfKPqL1WrgDhbIlVA==
   dependencies:
-    cbor "5.0.1"
+    cbor "5.0.2"
     cbor-js "0.1.0"
     msgpack-lite "0.1.26"
     utf8 "3.0.0"
@@ -3381,10 +3381,10 @@ event-lite@^0.1.1:
   resolved "https://registry.yarnpkg.com/event-lite/-/event-lite-0.1.2.tgz#838a3e0fdddef8cc90f128006c8e55a4e4e4c11b"
   integrity sha512-HnSYx1BsJ87/p6swwzv+2v6B4X+uxUteoDfRxsAb1S1BePzQqOLevVmkdA15GHJVd9A9Ok6wygUR18Hu0YeV9g==
 
-eventemitter3@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
-  integrity sha512-qerSRB0p+UDEssxTtm6EDKcE7W4OaoisfIMl4CngyEhjpYglocpNg6UEqCvemdGhosAsg4sO2dXJOdyBifPGCg==
+eventemitter3@4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.4.tgz#b5463ace635a083d018bdc7c917b4c5f10a85384"
+  integrity sha512-rlaVLnVxtxvoyLsQQFBx53YmXHDxRIzzTLbdfxqi4yocpSjAxXwkU0cScM5JgSKMqEhrZpnvQ2D9gjylR0AimQ==
 
 events@1.1.1:
   version "1.1.1"
@@ -4241,15 +4241,15 @@ growl@1.10.5:
   integrity sha512-qBr4OuELkhPenW6goKVXiv47US3clb3/IbuWF9KNKEijAy9oeHxU9IgzjvJhHkUzhaj7rOUD7+YGWqUjLp5oSA==
 
 hapi-plugin-websocket@^2.1.2:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/hapi-plugin-websocket/-/hapi-plugin-websocket-2.3.0.tgz#8555cd7df31d856d5aab18ad94ec79ecf132fccd"
-  integrity sha512-bm+K5opYruM7/u9q+2YnP48PaMZqYo4NiQMtPfg6eHfXgkFjmQ6WUSr5NQkTzl3Gn/aMiYgEM3AX3pR30TZhwA==
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/hapi-plugin-websocket/-/hapi-plugin-websocket-2.3.1.tgz#18544c81d28fba4978608a6eaa4389bb0c439302"
+  integrity sha512-MvS+BFlXhYp+a5giWDMOhKg96RNhaF5wupvoKl7JV36Zl/Nt4P9SGDgYFlKJuKrzquAtqovfGEPUGHgTZTMMXw==
   dependencies:
-    "@hapi/boom" "9.0.0"
-    "@hapi/hoek" "9.0.3"
+    "@hapi/boom" "9.1.0"
+    "@hapi/hoek" "9.0.4"
     urijs "1.19.2"
-    websocket-framed "1.2.2"
-    ws "7.2.1"
+    websocket-framed "1.2.3"
+    ws "7.3.1"
 
 har-schema@^2.0.0:
   version "2.0.0"
@@ -8317,13 +8317,13 @@ webpack@^4.43.0:
     watchpack "^1.6.1"
     webpack-sources "^1.4.1"
 
-websocket-framed@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/websocket-framed/-/websocket-framed-1.2.2.tgz#2ab0bde261564a56bd54cdc42ab1e2211ea161f5"
-  integrity sha512-7EeuDADPk6SLmpBiSnxg7P/ZxFKb7WOjpA+pvcsnKLwTGzJO1aob+gxUXETW93cozUIOUPGS6+rgaClAjig1qQ==
+websocket-framed@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/websocket-framed/-/websocket-framed-1.2.3.tgz#c23c172f3d34b6834e6aef3dcf6de1e9029cc506"
+  integrity sha512-iXkBiCINgF6J5Gsqc2sJoLBJgv1I2r/q5z1LUR00FkhQxCctG4VXLkAIHwDnI8/jstIGUHJsCGnv1qnCVt+nAg==
   dependencies:
-    encodr "1.2.2"
-    eventemitter3 "4.0.0"
+    encodr "1.2.4"
+    eventemitter3 "4.0.4"
 
 whatwg-fetch@>=0.10.0:
   version "3.2.0"
@@ -8421,10 +8421,10 @@ write@1.0.3:
   dependencies:
     mkdirp "^0.5.1"
 
-ws@7.2.1:
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.2.1.tgz#03ed52423cd744084b2cf42ed197c8b65a936b8e"
-  integrity sha512-sucePNSafamSKoOqoNfBd8V0StlkzJKL2ZAhGQinCfNQ+oacw+Pk7lcdAElecBF2VkLNZRiIb5Oi1Q5lVUVt2A==
+ws@7.3.1, ws@^7.2.1, ws@^7.3.0:
+  version "7.3.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.3.1.tgz#d0547bf67f7ce4f12a72dfe31262c68d7dc551c8"
+  integrity sha512-D3RuNkynyHmEJIpD2qrgVkc9DQ23OrN/moAwZX4L8DfvszsJxpjQuUq3LMx6HoYji9fbIOBY18XWBsAux1ZZUA==
 
 ws@<7.0.0:
   version "6.2.1"
@@ -8432,16 +8432,6 @@ ws@<7.0.0:
   integrity sha512-GIyAXC2cB7LjvpgMt9EKS2ldqr0MTrORaleiOno6TweZ6r3TKtoFQWay/2PceJ3RuBasOHzXNn5Lrw1X0bEjqA==
   dependencies:
     async-limiter "~1.0.0"
-
-ws@^7.2.1:
-  version "7.2.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.2.3.tgz#a5411e1fb04d5ed0efee76d26d5c46d830c39b46"
-  integrity sha512-HTDl9G9hbkNDk98naoR/cHDws7+EyYMOdL1BmjsZXRUjf7d+MficC4B7HLUPlSiho0vg+CWKrGIt/VJBd1xunQ==
-
-ws@^7.3.0:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.3.0.tgz#4b2f7f219b3d3737bc1a2fbf145d825b94d38ffd"
-  integrity sha512-iFtXzngZVXPGgpTlP1rBqsUK82p9tKqsWRPg5L56egiljujJT3vGAYnHANvFxBieXrTFavhzhxW52jnaWV+w2w==
 
 ws@~6.1.0:
   version "6.1.4"
